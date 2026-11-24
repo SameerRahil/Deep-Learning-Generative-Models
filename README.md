@@ -28,6 +28,18 @@ Raising beta squeezes the KL term (a more compressed, more disentangled code) at
 
 **CycleGAN FID (lower is better):** ablation 1: 156.32, ablation 2: 173.81, fine-tuned: 143.56.
 
+## Full-resolution figures
+
+The images inside the notebooks are compressed so that GitHub can display them. The beta-VAE figures at full resolution are in [`figures/`](figures):
+
+| What | Files |
+| --- | --- |
+| Beta sweep, latent traversals at latent size 15 | [beta 1](figures/beta_sweep_beta1.jpg), [beta 5](figures/beta_sweep_beta5.jpg), [beta 10](figures/beta_sweep_beta10.jpg), [beta 50](figures/beta_sweep_beta50.jpg) |
+| Latent-size sweep at beta 5 | [latent 5](figures/latent_sweep_latent5.jpg), [latent 10](figures/latent_sweep_latent10.jpg), [latent 15](figures/latent_sweep_latent15.jpg) |
+| Traversal resolution (steps per dimension) | [8](figures/sample_count_8.jpg), [10](figures/sample_count_10.jpg), [12](figures/sample_count_12.jpg) |
+| Reconstructions and loss curves | [latent-size sweep](figures/latent_sweep_reconstructions_and_loss.jpg), [beta sweep](figures/beta_sweep_reconstructions_and_loss.jpg) |
+| Data and first model | [CelebA samples](figures/celeba_samples.jpg), [first traversal](figures/first_traversal.jpg) |
+
 ## Checkpoints
 
 [`checkpoints/`](checkpoints) holds the six trained beta-VAE models (named by beta and latent size) and the MNIST GAN generator, each about 6 MB.
