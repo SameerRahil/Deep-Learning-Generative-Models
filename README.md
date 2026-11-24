@@ -6,10 +6,12 @@ Project 3 of CS 437 Deep Learning, LUMS, Spring 2026. Four notebooks on how gene
 
 | Part | Notebook | What it covers |
 | --- | --- | --- |
-| 1A. Beta-VAE on CelebA | [`1a_beta_vae_celeba.ipynb`](notebooks/1a_beta_vae_celeba.ipynb) | Beta-VAE architecture and loss, a latent-size sweep (5, 10, 15) at beta = 5, a beta sweep (1, 5, 10, 50) at latent size 15, and latent traversals to see which factors each dimension controls. |
-| 1B. GANs and latent interpolation | [`1b_gan_latent_interpolation.ipynb`](notebooks/1b_gan_latent_interpolation.ipynb) | A GAN trained on MNIST, interpolation through its latent space, the same with a pre-trained CelebA generator (3.59M parameters), and latent vector arithmetic. |
-| 1C. CycleGAN (horse2zebra) | [`1c_cyclegan_horse2zebra.ipynb`](notebooks/1c_cyclegan_horse2zebra.ipynb) | Unpaired image translation with a pre-trained CycleGAN: ablation experiments, fine-tuning, loss curves, and evaluation with cycle reconstruction error and FID. |
-| 1D. DCGAN vs WGAN-GP | [`1d_dcgan_vs_wgan_gp.ipynb`](notebooks/1d_dcgan_vs_wgan_gp.ipynb) | DCGAN and WGAN-GP (critic with gradient penalty) on Fashion-MNIST and CIFAR-10, comparing training curves and samples to study mode collapse. |
+| 1A. Beta-VAE on CelebA | [`1a_beta_vae_celeba.ipynb`](notebooks/1a_beta_vae_celeba.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-Generative-Models/blob/main/notebooks/1a_beta_vae_celeba.ipynb)) | Beta-VAE architecture and loss, a latent-size sweep (5, 10, 15) at beta = 5, a beta sweep (1, 5, 10, 50) at latent size 15, and latent traversals to see which factors each dimension controls. |
+| 1B. GANs and latent interpolation | [`1b_gan_latent_interpolation.ipynb`](notebooks/1b_gan_latent_interpolation.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-Generative-Models/blob/main/notebooks/1b_gan_latent_interpolation.ipynb)) | A GAN trained on MNIST, interpolation through its latent space, the same with a pre-trained CelebA generator (3.59M parameters), and latent vector arithmetic. |
+| 1C. CycleGAN (horse2zebra) | [`1c_cyclegan_horse2zebra.ipynb`](notebooks/1c_cyclegan_horse2zebra.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-Generative-Models/blob/main/notebooks/1c_cyclegan_horse2zebra.ipynb)) | Unpaired image translation with a pre-trained CycleGAN: ablation experiments, fine-tuning, loss curves, and evaluation with cycle reconstruction error and FID. |
+| 1D. DCGAN vs WGAN-GP | [`1d_dcgan_vs_wgan_gp.ipynb`](notebooks/1d_dcgan_vs_wgan_gp.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-Generative-Models/blob/main/notebooks/1d_dcgan_vs_wgan_gp.ipynb)) | DCGAN and WGAN-GP (critic with gradient penalty) on Fashion-MNIST and CIFAR-10, comparing training curves and samples to study mode collapse. |
+
+If GitHub cannot display a notebook, the nbviewer link next to it opens the same file.
 
 ## Results
 
